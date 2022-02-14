@@ -7,7 +7,7 @@ Use C++ to read CSV files, including obtaining the number of rows and columns an
 
 //this->getRow(r) //obtaining the data from a row (index from zero)
 
-//self.getCol(c) //obtaining the data from a column (index from zero) //return the pointer of vector
+//this->getCol(c) //obtaining the data from a column (index from zero) //return the pointer of vector
 
 //csv must be saved as GBK coding form 
 
