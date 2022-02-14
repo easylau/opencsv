@@ -10,10 +10,11 @@ Use C++ to read CSV files, including obtaining the number of rows and columns an
 For example:
   
     CsvFile Csv("./data.csv");
+    //obtain the number of rows and columns of the csv file
     cout<<"There is"<<Csv.row<<"rows"<<endl;
     cout<<"There is"<<Csv.col<<"columns"<<endl;
 
-    //read the data from the first column of csv file
+    //read the data from the first column of the csv file
     vector<string>* v=NULL;
     v=Csv.getCol(0);
     //print the data in vector
