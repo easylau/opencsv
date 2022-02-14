@@ -21,6 +21,7 @@ For example:
     //read the data from the first column of the csv file
     vector<string>* v=NULL;
     v=Csv.getCol(0);
+    
     //print the data in vector
     for(int i=0;i<v->size();i++)
     {
@@ -29,4 +30,4 @@ For example:
     system("pause");
     return 0;
 
-More detail introduction can be available in https://www.bilibili.com/video/BV1yP4y1w7FE.
+More detailed introduction can be available in https://www.bilibili.com/video/BV1yP4y1w7FE.
