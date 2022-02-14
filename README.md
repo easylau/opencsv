@@ -2,9 +2,13 @@
 Use C++ to read CSV files, including obtaining the number of rows and columns and specifying the data of a row or a column.
 
 //this->row //the number of rows
+
 //this->col //the number of columns //return int
+
 //this->getRow(r) //obtaining the data from a row (index from zero)
+
 //self.getCol(c) //obtaining the data from a column (index from zero) //return the pointer of vector
+
 //csv must be saved as GBK coding form 
 
 For example:
